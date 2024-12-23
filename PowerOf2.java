@@ -14,5 +14,6 @@ class PowerOf2 {
         int n=sc.nextInt();
         boolean bool=obj.isPowerOfTwo(n);
         System.out.println(bool);
+        sc.close();
     }
 }
