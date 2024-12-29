@@ -1,12 +1,18 @@
-class ExcelSheetNumberConv{
-    public static void main(String args[]){
-        int num=701;
-        StringBuilder s=new StringBuilder("");
-        while(num>0){
-            num--;
-            s.insert(0,(char)('A'+num%26));
-            num/=26;
+import java.util.Scanner;
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+        
+        if(n<=0){
+            return false;
         }
-        System.out.println(s);
+        return((n&(n-1))==0);
+        
+    }
+    public static void main(String args[]){
+        Solution obj=new Solution();
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        boolean bool=obj.isPowerOfTwo(n);
+        System.out.println(bool);
     }
 }
