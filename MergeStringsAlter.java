@@ -1,4 +1,4 @@
-class Solution {
+class MergeStringsAlter {
     public String mergeAlternately(String word1, String word2) {
         StringBuilder sb=new StringBuilder();
         int w1=0,w2=0;
