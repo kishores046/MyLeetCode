@@ -1,4 +1,4 @@
-class Solution {
+class HighestAltitude {
     public int largestAltitude(int[] gain) {
         int[] prefix=new int[gain.length+1];
         prefix[0]=0;
