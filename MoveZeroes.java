@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class MoveZeroes {
     public void moveZeroes(int[] nums) {
      int non_zero=0;
      for(int i=0;i<nums.length;i++){
