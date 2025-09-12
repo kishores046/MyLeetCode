@@ -7,8 +7,6 @@ import java.util.Map;
 public class LetterCombinationOfNumber {
     public static void main(String[] args) {
         System.out.println(findCombinations("9999"));
-
-
     }
     public static List<String> findCombinations(String digits){
       if(digits.isEmpty())return new ArrayList<>();
