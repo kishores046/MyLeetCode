@@ -1,4 +1,4 @@
-class Solution {
+class TwoSum21{
     public int[] twoSum(int[] numbers, int target) {
          int left=0;
          int right=numbers.length-1;
@@ -14,6 +14,7 @@ class Solution {
                 right--;
             }
         }
+
         return new int[]{};
     }
 }

@@ -1,4 +1,4 @@
-class SortColors {
+public class SortColors {
     public void sortColors(int[] nums) {
         int max=Integer.MIN_VALUE;
     for(int i:nums){

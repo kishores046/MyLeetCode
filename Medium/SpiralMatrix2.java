@@ -1,4 +1,4 @@
-class SpiralMatrix2 {
+public class SpiralMatrix2 {
     public int[][] generateMatrix(int n) {
 
         int[][] mat=new int[n][n];

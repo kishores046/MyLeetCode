@@ -6,9 +6,9 @@ class HighestAltitude {
             prefix[i]=prefix[i-1]+gain[i-1];
         }
        int max=Integer.MIN_VALUE;
-       for(int i=0;i<prefix.length;i++){
-         max=Math.max(prefix[i],max);
-       }
+        for (int j : prefix) {
+            max = Math.max(j, max);
+        }
        return max;
     }
 }

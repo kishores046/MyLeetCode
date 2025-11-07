@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class BullsAndCows {
     public String getHint(String secret, String guess) {
          int cows=0,bulls=0;

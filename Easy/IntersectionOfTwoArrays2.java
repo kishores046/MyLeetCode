@@ -23,10 +23,5 @@ class IntersectionOfTwoArrays2 {
 
         return result; 
     }
-    public static void main(String[] args){
-        int[] nums1={1,2,2,1};
-        int[] nums2={2,2};
-        int[] inter=new IntersectionOfTwoArrays2().intersect(nums1,nums2);
-        System.out.println(Arrays.toString(inter));
-    }
+
 }

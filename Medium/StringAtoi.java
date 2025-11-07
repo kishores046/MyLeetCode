@@ -1,4 +1,4 @@
-class StringAtoi {
+public class StringAtoi {
     public int myAtoi(String s) {
         // Initialize variables
         int i = 0, n = s.length();

@@ -1,4 +1,6 @@
-class Solution {
+import java.util.HashMap;
+
+class DistributeCandies {
     public int distributeCandies(int[] candyType) {
         HashMap<Integer,Integer> map=new HashMap<>();
         int expected=candyType.length/2;

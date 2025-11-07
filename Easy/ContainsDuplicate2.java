@@ -12,8 +12,5 @@ class ContainsDuplicate2 {
         }
         return false;
     }
-    public static void main(String args[]){
-        int[] nums={1,2,3,1};int k=3;
-        System.out.println(new ContainsDuplicate2().containsNearbyDuplicate(nums,k));
-            }
+
 }

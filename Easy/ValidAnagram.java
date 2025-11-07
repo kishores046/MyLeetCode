@@ -1,6 +1,6 @@
 import java.util.Arrays;
-public class ValidAnagram {
-    public static void main(String args[]){
+class ValidAnagram {
+     static void main(){
         String s="newyorktimes";
         String t="monkeyswrite";
         System.out.println(isvalidAnagram(s,t));
@@ -18,7 +18,7 @@ public class ValidAnagram {
                 return false;
             }
         }
-        
+        IO.println();
        return true;
         
     }

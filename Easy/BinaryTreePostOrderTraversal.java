@@ -18,7 +18,7 @@ import java.util.*;
  *     }
  * }
  */
-class Solution {
+class BinaryTreePostOrderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
        List<Integer> list=new ArrayList<>();
        postorder(root,list);
@@ -31,8 +31,4 @@ class Solution {
             list.add(node.val);
         }
     }
-    public static void main(String[] args){
-        TreeNode root=new TreeNode(1,null,new TreeNode(2,new TreeNode(3),null));
-        List<Integer> result=new Solution().postorderTraversal(root);
-        System.out.println(result);
-    }}
+   }

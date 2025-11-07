@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+public class DifferenceOfTwoArrays {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         List<List<Integer>> list=new ArrayList<>();
         HashSet<Integer> hs1=new HashSet<>();
@@ -14,10 +14,5 @@ class Solution {
         list.add(l2);
         return list;
     }
-    public static void main(String[] args){
-        int[] nums1={1,2,3};
-        int[] nums2={2,4,6};
-        List<List<Integer>> list=new Solution().findDifference(nums1,nums2);
-        System.out.println(list);
-    }
+
 }

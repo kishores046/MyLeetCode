@@ -1,5 +1,5 @@
 
-class Solution {
+public class IntegerToRoman {
     public String intToRoman(int num) {
         int ones=0;
         int  tens=0;

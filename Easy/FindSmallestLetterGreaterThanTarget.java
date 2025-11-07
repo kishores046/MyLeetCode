@@ -1,4 +1,4 @@
-class Solution {
+class FindSmallestLetterGreaterThanTarget{
     public char nextGreatestLetter(char[] letters, char target) {
         int start=0,end=letters.length-1;
         int ans='1';

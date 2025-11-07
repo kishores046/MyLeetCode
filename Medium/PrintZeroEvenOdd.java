@@ -1,4 +1,6 @@
-import java.util.concurrent.*;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.function.IntConsumer;
 class PrintZeroEvenOdd {
     private int n;
     private int tracker=3;
@@ -6,7 +8,7 @@ class PrintZeroEvenOdd {
     Condition zeroTurn=lock.newCondition();
     Condition oddTurn=lock.newCondition();
     Condition evenTurn=lock.newCondition();
-    public ZeroEvenOdd(int n) {
+    public PrintZeroEvenOdd(int n) {
         this.n = n;
     }
 

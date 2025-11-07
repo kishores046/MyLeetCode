@@ -1,3 +1,6 @@
+
+import java.util.concurrent.Semaphore;
+
 class H2O {
     Semaphore hydrogen;
     Semaphore oxygen;

@@ -4,12 +4,7 @@ import java.util.HashMap;
 
 
 class IsomorphicStrings{
-    public static void main(String[] args) {
-        String s="add";
-        String t="egg";
-        IsomorphicStrings obj=new IsomorphicStrings();
-        System.out.println(obj.isIsomporhicStrings(s,t));
-    }
+
     public boolean isIsomporhicStrings(String s,String t){
         if(t.length()!=s.length()){
             return false;

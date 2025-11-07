@@ -1,4 +1,4 @@
-class Solution {
+class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         s=s.trim();
         int start_index=s.lastIndexOf(' ');

@@ -1,4 +1,4 @@
-class Solution {
+class FindPeakElement {
     public int findPeakElement(int[] nums) {
         int start=0;
         int end=nums.length-1;

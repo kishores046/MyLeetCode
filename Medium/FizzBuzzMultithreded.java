@@ -1,10 +1,13 @@
+import java.util.concurrent.Semaphore;
+import java.util.function.IntConsumer;
+
 class FizzBuzzMultiThreded {
     private int n;
     private Semaphore fizz = new Semaphore(0);
 	private Semaphore buzz = new Semaphore(0);
 	private Semaphore fizzbuzz = new Semaphore(0);
 	private Semaphore num = new Semaphore(1);
-    public FizzBuzz(int n) {
+    public FizzBuzzMultiThreded(int n) {
         this.n = n;
     }
 

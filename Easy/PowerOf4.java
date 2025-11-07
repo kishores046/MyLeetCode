@@ -1,4 +1,4 @@
-class Solution {
+class PowerOf4 {
     public boolean isPowerOfFour(int n) {
         if(n<=0){
             return false;

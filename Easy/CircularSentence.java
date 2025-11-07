@@ -22,10 +22,5 @@ public class CircularSentence {
      
         return true;
         }
-    public static void main(String[] args) {
-       String str="Leetcode enjoys sound delightfull";
-        //String str="eetcode";
-        CircularSentence obj=new CircularSentence();
-        System.out.println(obj.isCircularSentence(str));
-    }
+
 }

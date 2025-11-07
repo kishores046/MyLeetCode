@@ -1,6 +1,6 @@
 
 
-class Solution {
+public class ClimbingStairs {
     public int climbStairs(int n) {
         int a=0;
         int  b=1;

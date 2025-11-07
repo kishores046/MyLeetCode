@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+public class TopKFrequentElement {
     public int[] topKFrequent(int[] nums, int k) {
         if(nums.length==k){
             return nums;

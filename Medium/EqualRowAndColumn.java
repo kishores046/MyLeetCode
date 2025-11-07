@@ -1,4 +1,4 @@
-class Solution {
+public class EqualRowAndColumn {
     public int equalPairs(int[][] grid) {
         int n=grid.length;
         int count=0;

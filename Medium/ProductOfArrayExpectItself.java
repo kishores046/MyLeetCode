@@ -1,4 +1,4 @@
-class ProductOfArrayExpectItself {
+public class ProductOfArrayExpectItself {
     public int[] productExceptSelf(int[] nums) {
         	int[] l=new int[nums.length];
 		int[] r=new int[nums.length];

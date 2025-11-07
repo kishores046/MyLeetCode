@@ -1,4 +1,4 @@
-class Solution {
+class ExcelSheetColumnTitle {
     public String convertToTitle(int columnNumber) {
         
         

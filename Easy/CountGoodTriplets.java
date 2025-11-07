@@ -1,6 +1,6 @@
 
 
-class Solution {
+class CountGoodTriplets {
     public int countGoodTriplets(int[] arr, int a, int b, int c) {
         int count=0;
         for(int i=0;i<arr.length;i++){

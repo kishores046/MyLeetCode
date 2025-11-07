@@ -18,11 +18,12 @@ class NumberOfOneBits{
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         System.out.println(obj.hammingWeight(n));
+        System.out.println(2&(2-1));
         sc.close();
     }
 }
-/*Using Integer class bitCount() Time complexeity of this solution is O(1)
-Space Complexeity is O(1)
+/*Using Integer class bitCount() Time complexity of this solution is O(1)
+Space Complexity is O(1)
 class Solution {
     public int hammingWeight(int n) {
         return Integer.bitCount(n);

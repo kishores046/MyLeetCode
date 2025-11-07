@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Solution {
+public class ExcelSheetNumberConv {
     public boolean isPowerOfTwo(int n) {
         
         if(n<=0){
@@ -9,7 +9,7 @@ class Solution {
         
     }
     public static void main(String[] args){
-        Solution obj=new Solution();
+        ExcelSheetNumberConv obj=new ExcelSheetNumberConv();
         try (Scanner sc = new Scanner(System.in)) {
             int n=sc.nextInt();
             boolean bool=obj.isPowerOfTwo(n);

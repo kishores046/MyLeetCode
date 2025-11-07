@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class UniqueNumberOfOccurences {
     public boolean uniqueOccurrences(int[] arr) {
         HashMap<Integer,Integer> map=new HashMap<>();
         for(int i=0;i<arr.length;i++){

@@ -1,4 +1,8 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class SortTheVowelsString {
     public String sortVowels(String s) {
         StringBuilder sb=new StringBuilder(s);
         String vowels="AEIOUaeiou";

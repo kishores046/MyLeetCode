@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class MiddleOfLinkedList {
     public ListNode middleNode(ListNode head) {
          ListNode current = head;
         int count = 0;
