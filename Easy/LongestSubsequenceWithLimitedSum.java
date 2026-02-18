@@ -7,23 +7,23 @@ void main() {
 
 public int[] answerQueries(int[] nums, int[] queries) {
     Arrays.sort(nums);
-    int[] prefixSum=new int[nums.length];
+    //int[] prefixSum=new int[nums.length];
     int[] res=new int[queries.length];
-    prefixSum[0]=nums[0];
+
     for(int i=1;i< nums.length;i++){
-        prefixSum[i]=nums[i]+prefixSum[i-1];
+        nums[i]=nums[i]+nums[i-1];
     }
     int index=0;
     for (int q:queries){
         int left=0;
-        int right=prefixSum.length-1;
+        int right=nums.length-1;
         while (left<right){
             int mid=left+(right-left)/2;
-            if(prefixSum[mid]<=q){
+            if(nums[mid]<=q){
                 left=mid+1;
             }else right =mid;
         }
-        if (prefixSum[left] <= q)
+        if (nums[left] <= q)
             res[index++] = left + 1;
         else
             res[index++] = left;
