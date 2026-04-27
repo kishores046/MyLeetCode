@@ -1,5 +1,5 @@
 package Linked_List;
-class ListNode {
+public class ListNode {
     int val;
     ListNode next;
     ListNode() {}
