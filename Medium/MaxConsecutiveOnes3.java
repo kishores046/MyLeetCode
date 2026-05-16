@@ -11,12 +11,13 @@ public class MaxConsecutiveOnes3 {
                 }
                 left++;
             }
-            max = Math.max(max, right - left + 1);
+            max = Math.max(max, right - left +1);
         }
         return max;
     }
 
     static void main(String[] args) {
-        System.out.println(new MaxConsecutiveOnes3().longestOnes(new int[]{0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1},3));
+        System.out.println(new MaxConsecutiveOnes3().longestOnes(new int[]{0,1,1,1,0,1,1,0,1},1));
     }
 }
+
